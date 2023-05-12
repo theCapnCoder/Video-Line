@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/thecapncoder.github.io/Video-Line/static/css/main.073c9b0a.css",
+    "main.js": "/thecapncoder.github.io/Video-Line/static/js/main.f988e1cd.js",
+    "static/js/787.2fdffa5c.chunk.js": "/thecapncoder.github.io/Video-Line/static/js/787.2fdffa5c.chunk.js",
+    "static/media/logo.svg": "/thecapncoder.github.io/Video-Line/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/thecapncoder.github.io/Video-Line/index.html",
+    "main.073c9b0a.css.map": "/thecapncoder.github.io/Video-Line/static/css/main.073c9b0a.css.map",
+    "main.f988e1cd.js.map": "/thecapncoder.github.io/Video-Line/static/js/main.f988e1cd.js.map",
+    "787.2fdffa5c.chunk.js.map": "/thecapncoder.github.io/Video-Line/static/js/787.2fdffa5c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.f988e1cd.js"
+  ]
+}
