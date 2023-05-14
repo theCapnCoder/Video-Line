@@ -1,5 +1,7 @@
 .button {
-  padding: 17px 0 18px 0;
+  padding: 17px 10px 18px 10px;
+  min-width: 185px;
+  cursor: pointer;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
@@ -26,6 +28,6 @@
     border: 1px solid #ffffff;
     border-radius: 5px;
     background: transparent;
-    color: #5540bf;
+    color: #ffffff;
   }
 }
