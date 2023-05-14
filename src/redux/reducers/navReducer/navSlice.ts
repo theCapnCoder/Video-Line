@@ -1,6 +1,24 @@
 import { createSlice } from '@reduxjs/toolkit'
 
-const initialState: Array<string> = ['Блог', 'Безопасность', 'Помощь']
+type State = {
+  text: string,
+  link: string,
+}
+
+const initialState: Array<State> = [
+  {
+    text: 'Блог',
+    link: '#'
+  },
+  {
+    text: 'Безопасность',
+    link: '#'
+  },
+  {
+    text: 'Помощь',
+    link: '#'
+  },
+]
 
 const navSlice = createSlice({
   name: 'nav',

@@ -1,0 +1,129 @@
+.main {
+  position: relative;
+  background: linear-gradient(51.78deg, #5540bf 28.44%, #afa1f9 99.76%);
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1000px;
+    height: 550px;
+    background-image: url("../../assets/img/play.png");
+    background-repeat: no-repeat;
+  }
+
+  .header {
+    max-width: 1096px;
+    padding-top: 40px;
+    margin-left: 172px;
+    display: flex;
+    justify-content: space-between;
+
+    nav {
+      padding-top: 8px;
+
+      ul {
+        min-width: 262px;
+        display: flex;
+        justify-content: space-between;
+
+        a {
+          text-decoration: none;
+        }
+
+        li {
+          list-style: none;
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 17px;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+
+  .cardWrapper {
+    padding-bottom: 121px;
+    padding-top: 142px;
+    display: flex;
+
+    * {
+      flex-basis: 50%;
+    }
+
+    h1 {
+      max-width: 630px;
+      margin-bottom: 35px;
+    }
+
+    h3 {
+      max-width: 485px;
+      margin-bottom: 65px;
+    }
+  }
+
+  h4 {
+    max-width: 467px;
+  }
+
+  .buttonsWrapper {
+    margin-bottom: 18px;
+
+    *:nth-of-type(1) {
+      margin-right: 20px;
+    }
+  }
+
+  .imagesWrapper {
+    position: relative;
+
+    .girlWrapper {
+      position: absolute;
+      top: -27px;
+      left: -16px;
+
+      img {
+        border-radius: 5px;
+      }
+    }
+
+    .manWrapper {
+      position: absolute;
+      bottom: -14px;
+      right: 88px;
+
+      img {
+        border-radius: 5px;
+      }
+    }
+
+    .listWrapper {
+      position: absolute;
+      bottom: 32px;
+      left: 68px;
+      width: 179px;
+      height: 237px;
+      border-radius: 10px;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        height: 100%;
+        transform: scale(1.2);
+      }
+    }
+  }
+
+  .content {
+    margin-left: 172px;
+  }
+
+  .actions {
+    height: 280px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 0px 100px rgba(175, 161, 249, 0.3);
+  }
+}
