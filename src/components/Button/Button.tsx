@@ -7,9 +7,10 @@ type Props = {
   children: ReactNode;
   size: "small" | "medium";
   variant: "contained" | "outlined";
+  color?: 'primary'
 };
 
-export const Button: FC<Props> = ({ children, size, variant }) => {
+export const Button: FC<Props> = ({ children, size, variant, color }) => {
   return (
     <button
       className={classNames(styles.button, styles.button_extra, {
@@ -17,6 +18,7 @@ export const Button: FC<Props> = ({ children, size, variant }) => {
         [styles.medium]: size === "medium",
         [styles.contained]: variant === "contained",
         [styles.outlined]: variant === "outlined",
+        [styles.primary]: color === "primary",
       })}
     >
       {children}

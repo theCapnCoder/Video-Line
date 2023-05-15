@@ -1,3 +1,5 @@
 Initial project - 1hr
 Component button - 0.5hr
 Header - 0.5h
+Main - 4hr
+Cards - 4hr

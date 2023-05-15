@@ -21,13 +21,19 @@
     background: #ffffff;
     border-radius: 5px;
     border: none;
-    color: #5540BF;
+    color: #5540bf;
   }
 
   &.outlined {
     border: 1px solid #ffffff;
     border-radius: 5px;
     background: transparent;
+    color: #ffffff;
+  }
+
+  &.primary {
+    background: #5540bf;
+    padding: 17px 33px 18px 34px;
     color: #ffffff;
   }
 }
