@@ -1,12 +1,27 @@
 import { createSlice } from '@reduxjs/toolkit'
+import { Button } from '../../../Blocks/Main/ActionButtons/ActionButtons';
 
-const initialState: Array<string> = [
-  "бесплатно",
-  "вход по ссылке",
-  "без ограничений по времени",
-  "звонки из браузера",
-  "демонстрация экрана",
-  "демонстрация экрана",
+
+
+const initialState: Array<Button> = [
+  {
+    text: "бесплатно",
+  },
+  {
+    text: "вход по ссылке",
+  },
+  {
+    text: "без ограничений по времени",
+  },
+  {
+    text: "звонки из браузера",
+  },
+  {
+    text: "демонстрация экрана",
+  },
+  {
+    text: "безопасно",
+  },
 ]
 
 const actionButtonsSlice = createSlice({
