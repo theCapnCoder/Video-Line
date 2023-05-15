@@ -6,12 +6,14 @@ import Button from "../../components/Button";
 
 import imgGirl from "../../assets/img/main_girl.jpg";
 import imgMan from "../../assets/img/main_man.jpg";
-import imgCircle from "../../assets/img/main_circle.png";
+import imgCircleWhite from "../../assets/img/circle_white.svg";
 import imgCard from "../../assets/img/main_card.jpg";
 import imgVideo from "../../assets/img/main_video.jpg";
+import imgCircleYellow from "../../assets/img/circle_yellow.svg";
+import ActionButtons from "./ActionButtons";
 
 export const Main = () => {
-  const { nav: navLinks, main } = useSelector((state: RootState) => state);
+  const { nav: navLinks, main, actionButtons } = useSelector((state: RootState) => state);
   const link = "#";
 
   return (
@@ -50,29 +52,35 @@ export const Main = () => {
         </div>
 
         <div className={styles.imagesWrapper}>
+          <div className={styles.circleWhiteWrapper}>
+            <img src={imgCircleWhite} alt="circle white" />
+          </div>
+
           <div className={styles.girlWrapper}>
             <img src={imgGirl} alt="girl" />
           </div>
+
+          <div className={styles.circlePurpleWrapper}></div>
 
           <div className={styles.manWrapper}>
             <img src={imgMan} alt="man" />
           </div>
 
-          <div className={styles.listWrapper}>
-            <img src={imgCard} alt="card" />
-          </div>
-
-          {/* <div className={styles.manWrapper}>
+          <div className={styles.videoWrapper}>
             <img src={imgVideo} alt="video" />
           </div>
 
-          <div className={styles.manWrapper}>
-            <img src={imgCircle} alt="circle" />
-          </div> */}
+          <div className={styles.circleYellowWrapper}>
+            <img src={imgCircleYellow} alt="circle yellow" />
+          </div>
+
+          <div className={styles.listWrapper}>
+            <img src={imgCard} alt="circle" />
+          </div>
         </div>
       </div>
 
-      {/* <div className={styles.actions}></div> */}
+      <ActionButtons buttons={actionButtons}/>
     </main>
   );
 };
