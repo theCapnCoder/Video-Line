@@ -80,6 +80,12 @@
   .imagesWrapper {
     position: relative;
 
+    .circleWhiteWrapper {
+      position: absolute;
+      top: -58px;
+      left: -47px;
+    }
+
     .girlWrapper {
       position: absolute;
       top: -27px;
@@ -90,6 +96,16 @@
       }
     }
 
+    .circlePurpleWrapper {
+      position: absolute;
+      top: 71px;
+      right: 63px;
+      width: 121px;
+      height: 121px;
+      border-radius: 50%;
+      background: #5540bf;
+    }
+
     .manWrapper {
       position: absolute;
       bottom: -14px;
@@ -98,34 +114,6 @@
       img {
         border-radius: 5px;
       }
-    }
-
-    .listWrapper {
-      position: absolute;
-      bottom: 32px;
-      left: 68px;
-      width: 179px;
-      height: 237px;
-      border-radius: 10px;
-      overflow: hidden;
-
-      img {
-        width: 100%;
-        height: 100%;
-        transform: scale(1.2);
-      }
-    }
-
-    .circleWhiteWrapper {
-      position: absolute;
-      top: -58px;
-      left: -47px;
-    }
-
-    .circleYellowWrapper{
-      position: absolute;
-      bottom: 0px;
-      left: 190px;
     }
 
     .videoWrapper {
@@ -142,15 +130,27 @@
         transform: scale(1.24);
       }
     }
-    
-    .circlePurpleWrapper {
+
+    .circleYellowWrapper {
       position: absolute;
-      top: 71px;
-      right: 63px;
-      width: 121px;
-      height: 121px;
-      border-radius: 50%;
-      background: #5540BF;
+      bottom: 0px;
+      left: 190px;
+    }
+
+    .listWrapper {
+      position: absolute;
+      bottom: 32px;
+      left: 68px;
+      width: 179px;
+      height: 237px;
+      border-radius: 10px;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        height: 100%;
+        transform: scale(1.2);
+      }
     }
   }
 
