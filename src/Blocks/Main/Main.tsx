@@ -10,9 +10,10 @@ import imgCircleWhite from "../../assets/img/circle_white.svg";
 import imgCard from "../../assets/img/main_card.jpg";
 import imgVideo from "../../assets/img/main_video.jpg";
 import imgCircleYellow from "../../assets/img/circle_yellow.svg";
+import ActionButtons from "./ActionButtons";
 
 export const Main = () => {
-  const { nav: navLinks, main } = useSelector((state: RootState) => state);
+  const { nav: navLinks, main, actionButtons } = useSelector((state: RootState) => state);
   const link = "#";
 
   return (
@@ -79,7 +80,7 @@ export const Main = () => {
         </div>
       </div>
 
-      {/* <div className={styles.actions}></div> */}
+      <ActionButtons buttons={actionButtons}/>
     </main>
   );
 };
