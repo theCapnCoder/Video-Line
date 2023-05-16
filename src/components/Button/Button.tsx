@@ -7,7 +7,7 @@ type Props = {
   children: ReactNode;
   size: "small" | "medium";
   variant: "contained" | "outlined";
-  color?: 'primary'
+  color?: 'primary' | "secondary"
 };
 
 export const Button: FC<Props> = ({ children, size, variant, color }) => {
@@ -19,6 +19,7 @@ export const Button: FC<Props> = ({ children, size, variant, color }) => {
         [styles.contained]: variant === "contained",
         [styles.outlined]: variant === "outlined",
         [styles.primary]: color === "primary",
+        [styles.secondary]: color === "secondary",
       })}
     >
       {children}
