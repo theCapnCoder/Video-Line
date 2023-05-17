@@ -6,14 +6,14 @@ type State = {
 }
 
 const initialState: State = {
-  title: 'Проводите онлайн-трансляции',
+  title: 'Проводите онлайн-&nbsp;трансляции',
   text: 'Помимо звонков, вы можете использовать VideoLineApp для проведения онлайн-трансляций. Количество зрителей не ограничено.'
 }
 
-const onlineSlice = createSlice({
+const actionSlice = createSlice({
   name: 'online',
   initialState,
   reducers: {}
 })
 
-export default onlineSlice.reducer;
+export default actionSlice.reducer;
