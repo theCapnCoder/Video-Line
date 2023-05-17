@@ -3,12 +3,12 @@ import nav from '../reducers/navReducer/navSlice';
 import main from '../reducers/mainReducer/mainSlice';
 import actionButtons from '../reducers/actionButtonsReducer/actionButtonsSlice'
 import cards from '../reducers/cardsReducer/cardsSlice'
-import online from '../reducers/onlineReducer/onlineSlice'
+import action from '../reducers/actionReducer/actionSlice'
 
 export const combineReducer = combineReducers({
   nav,
   main,
   actionButtons,
   cards,
-  online
+  action
 });
