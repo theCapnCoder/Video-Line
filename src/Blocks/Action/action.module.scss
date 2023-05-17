@@ -1,0 +1,78 @@
+.action {
+  padding: 101px 0;
+  margin-bottom: 400px;
+  background: linear-gradient(78.94deg, #5540bf 36.07%, #afa1f9 99.58%);
+
+  h2,
+  p {
+    color: #fff;
+  }
+
+  .flexWrapper {
+    margin: 0 auto;
+    max-width: 1146px;
+    display: flex;
+    position: relative;
+
+    > * {
+      flex-basis: 50%;
+      position: relative;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: -200px;
+      right: -90px;
+      width: 152px;
+      height: 152px;
+      border-radius: 50%;
+      background: rgba(155, 217, 249, 0.5);
+      background-repeat: no-repeat;
+      z-index: -1;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: -49px;
+      right: 527px;
+      width: 88px;
+      height: 104px;
+      background-image: url("../../assets/img/action_yellowCircle.svg");
+      background-repeat: no-repeat;
+    }
+
+    .content {
+      padding-left: 25px;
+
+      h2 {
+        margin-bottom: 36px;
+        max-width: 400px;
+      }
+
+      span {
+        white-space: nowrap;
+      }
+
+      p {
+        margin-bottom: 44px;
+        max-width: 510px;
+      }
+    }
+
+    .imgContainer {
+      position: relative;
+      top: -143px;
+      left: 10px;
+
+      .imgWrapper {
+        position: absolute;
+        height: 457px;
+        box-shadow: 0px 0px 20px rgba(85, 64, 191, 0.2);
+        border-radius: 10px;
+        overflow: hidden;
+      }
+    }
+  }
+}
