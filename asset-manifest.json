@@ -1,24 +1,35 @@
 {
   "files": {
-    "main.css": "/Video-Line/static/css/main.27363cea.css",
-    "main.js": "/Video-Line/static/js/main.4afb1069.js",
+    "main.css": "/Video-Line/static/css/main.2c7e7c8c.css",
+    "main.js": "/Video-Line/static/js/main.1e004a24.js",
     "static/media/card_2_photo.png": "/Video-Line/static/media/card_2_photo.1e496b1b9cce5bf3e5f5.png",
     "static/media/card_1_chat.png": "/Video-Line/static/media/card_1_chat.b2f7a4d4b9938eacde9f.png",
+    "static/media/lg2.jpg": "/Video-Line/static/media/lg2.81f4139e9c3761a9a350.jpg",
+    "static/media/lg1.jpg": "/Video-Line/static/media/lg1.a6a1f7b6be5408ef163d.jpg",
+    "static/media/card_3_photo.png": "/Video-Line/static/media/card_3_photo.43b6e05afac01dd39996.png",
+    "static/media/lg4.jpg": "/Video-Line/static/media/lg4.31c5e5699659165504f4.jpg",
+    "static/media/card_3_mobile.png": "/Video-Line/static/media/card_3_mobile.82384e40e459315ebf7e.png",
+    "static/media/lg3.jpg": "/Video-Line/static/media/lg3.a02eabd073bdebed03f3.jpg",
+    "static/media/lg5.jpg": "/Video-Line/static/media/lg5.88fc0de06528dd622a4b.jpg",
+    "static/media/action_statistic.jpg": "/Video-Line/static/media/action_statistic.3b1f45690584148c1a57.jpg",
     "static/media/main_man.jpg": "/Video-Line/static/media/main_man.5140d79bf72119d8ab96.jpg",
     "static/media/main_girl.jpg": "/Video-Line/static/media/main_girl.4705e1b5c9a3ac1c512a.jpg",
     "static/media/card_1_mobile.png": "/Video-Line/static/media/card_1_mobile.e5f1b91bbc7b6f10c6f0.png",
     "static/media/main_card.jpg": "/Video-Line/static/media/main_card.a38005019110034f8aee.jpg",
+    "static/media/card_2_message.png": "/Video-Line/static/media/card_2_message.c23541e48de11e323a68.png",
     "static/media/main_video.jpg": "/Video-Line/static/media/main_video.4abdfbc7eaa726adb58d.jpg",
     "static/media/card_1_bg_1.png": "/Video-Line/static/media/card_1_bg_1.dd9d66ac869a06602820.png",
+    "static/media/card_3_bg_1.png": "/Video-Line/static/media/card_3_bg_1.2d7416d1fc9979f71d3a.png",
     "static/media/card_2_bg_1.png": "/Video-Line/static/media/card_2_bg_1.79453f2896baafa9f1d0.png",
     "static/media/circle_white.svg": "/Video-Line/static/media/circle_white.f280952be6c994c69ba896c34c510881.svg",
     "static/media/circle_yellow.svg": "/Video-Line/static/media/circle_yellow.306e7847694a6833798e7cfc42f9095f.svg",
+    "static/media/action_yellowCircle.svg": "/Video-Line/static/media/action_yellowCircle.16169a8f244d19c71070.svg",
     "index.html": "/Video-Line/index.html",
-    "main.27363cea.css.map": "/Video-Line/static/css/main.27363cea.css.map",
-    "main.4afb1069.js.map": "/Video-Line/static/js/main.4afb1069.js.map"
+    "main.2c7e7c8c.css.map": "/Video-Line/static/css/main.2c7e7c8c.css.map",
+    "main.1e004a24.js.map": "/Video-Line/static/js/main.1e004a24.js.map"
   },
   "entrypoints": [
-    "static/css/main.27363cea.css",
-    "static/js/main.4afb1069.js"
+    "static/css/main.2c7e7c8c.css",
+    "static/js/main.1e004a24.js"
   ]
 }
