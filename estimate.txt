@@ -4,3 +4,5 @@ Header - 0.5h
 Main - 4hr
 Cards - 6hr
 Action - 2hr
+Footer - 0.5hr
+Refactor - 0.5hr
