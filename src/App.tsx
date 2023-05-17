@@ -1,5 +1,6 @@
 import Action from "./Blocks/Action";
 import Advantage from "./Blocks/Advantage";
+import Footer from "./Blocks/Footer";
 import Main from "./Blocks/Main";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <Main />
       <Advantage />
       <Action />
+      <Footer />
     </div>
   );
 }
