@@ -2,7 +2,6 @@ import { useSelector } from "react-redux";
 import { RootState } from "../../redux/store/types";
 import Button from "../../components/Button";
 import imgStatistic from "../../assets/img/action_statistic.jpg";
-import test from "../../assets/img/test.jpg";
 
 import styles from "./action.module.scss";
 
@@ -24,7 +23,7 @@ export const Action = () => {
 
         <div className={styles.imgContainer}>
           <div className={styles.imgWrapper}>
-            <img src={test} alt="statistic" />
+            <img src={imgStatistic} alt="statistic" />
           </div>
         </div>
       </div>

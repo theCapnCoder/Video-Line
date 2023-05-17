@@ -1,0 +1,34 @@
+.footer {
+  margin: 0 auto;
+  padding: 53px 0;
+  padding-top: 68px;
+  max-width: 1097px;
+
+  .flexWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+    h3 {
+      align-self: end;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 22px;
+      color: #5540bf;
+    }
+  }
+
+  .iconsContainer {
+    display: flex;
+    gap: 18px;
+    padding-bottom: 10px;
+  }
+
+  p {
+    text-align: right;
+    margin-left: -45px;
+    margin-right: -8px;
+  }
+}
